@@ -4,7 +4,7 @@
     box-sizing: border-box;
     color: #1cedae;
     font-family: 'League Gothic', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background: rgb(0, 255, 157);
@@ -254,4 +254,40 @@ h1{
     line-height: 80px;
     font-size: 50px;
     font-weight: 600;
+}
+
+@media(max-width:600px){
+    .contenedor{
+        height: 500px;
+        width: 1000px;
+        background-color: rgba(0, 0, 0, 0.979);
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    h1{
+        color: black;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-left: 500px;
+        text-decoration: none;
+    }
+
+}
+
+@media(max-width:1000px){
+    .contenedor{
+        height: 500px;
+        width: 1000px;
+        background-color: rgba(0, 0, 0, 0.979);
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    h1{
+display: none;
+    }
+
 }
