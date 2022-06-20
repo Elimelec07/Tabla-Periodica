@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1cedae;
+    font-family: 'League Gothic', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgb(0, 255, 157);
+    
+}
+.contenedor{
+    height: 500px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.979);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    margin-left: 70px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.elementos{
+    height: 50px;
+    width: 50px;
+    background-color: #1cedae;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+}
+.elementos1{
+    height: 50px;
+    width: 50px;
+    background-color: #ff6c02;
+    display: grid;
+    grid-area: 1/ span 17;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.elementos2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(40, 89, 33);
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-area: / span ;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+.elementos3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(3, 3, 113);
+    color: white;
+    display: grid;
+    grid-area: 2 / span 1 ;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+.elementos4{
+    height: 50px;
+    width: 50px;
+    background-color: #fec106;
+    color: black;
+    display: grid;
+    grid-area: 2/ span 11;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+.elementos7{
+    height: 50px;
+    width: 50px;
+    display: grid;
+    grid-area: 3/ span 1;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(3, 3, 113);
+    color: white;
+}
+
+.elementos8{
+    height: 50px;
+    width: 50px;
+    background-color: #fec106;
+    color: black;
+    display: grid;
+    grid-area: 3/ span 11;
+    line-height: 50px;
+    text-align: center;
+}
+.elementosr{
+    height: 50px;
+    width: 50px;
+    background-color: #ff051f;
+    color: black;
+    display: grid;
+    line-height: 50px;
+    text-align: center;
+}
+.elementosn{
+    height: 50px;
+    width: 50px;
+    background-color: #ff6c02;
+    color: black;
+    display: grid;
+    line-height: 50px;
+    text-align: center;
+}
+
+.elementosv{
+    height: 50px;
+    width: 50px;
+    background-color: #1eff05;
+    color: black;
+    display: grid;
+    line-height: 50px;
+    text-align: center;
+}
+.elementosa{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(3, 3, 113);
+    color: rgb(254, 250, 250);
+    display: grid;
+    line-height: 50px;
+    text-align: center;
+}
+.elementosr{
+    height: 50px;
+    width: 50px;
+    background-color: #fec106;
+    display: grid;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+}
+.elementoso{
+    height: 50px;
+    width: 50px;
+    background-color:  rgb(40, 89, 33);
+    display: grid;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+}
+.elementosm{
+    height: 50px;
+    width: 50px;
+    background-color: #e501e2;
+    display: grid;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+}
+.elementos:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.elementos1:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.elementos4:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.elementos7:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.elementos8:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.elementosa:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.elementosm:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.elementosr:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.elementosn:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.elementosv:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.elementoso:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.elementos2:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.elementos3:hover{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
